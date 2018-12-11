@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/login_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/pic1"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="User Id"
+        android:drawableLeft="@drawable/person"
+        android:layout_gravity="center"
+
+        />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/lock"
+        android:hint="Password" />
+    <Button
+        android:id="@+id/login_btn"
+        android:text="Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/login_register"
+        android:text="Register New Account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>
